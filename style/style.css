@@ -1,3 +1,15 @@
 body{
     background-color: cornflowerblue;
 }
+
+header{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
