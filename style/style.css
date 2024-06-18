@@ -1,8 +1,8 @@
 body{
-    background-color: cornflowerblue;
+    background-color: #6495ed;
 }
 
-header{
+header {
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -12,4 +12,41 @@ header{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+.highlight{
+    color: chocolate;
+}
+
+.home-text{
+    max-width: 800px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.monk-img-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contact-form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+footer{
+    height: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #82a9f3;
+}
+
+footer a{
+    padding: 5px;
 }
